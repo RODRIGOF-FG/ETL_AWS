@@ -23,3 +23,6 @@ Proceso ETL (Extract, Transform, Load), el cual implica la carga de un archivo C
 
 
 ![img_5](file/img_5.png)
+
+- Para verificar si el rol creado se ha guardado correctamente, puedes dirigirte a la sección de "Roles".
+![img_6](file/img_6.png)
