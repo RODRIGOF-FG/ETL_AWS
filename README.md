@@ -2,7 +2,7 @@
 Tabla de contenido
 -----------------
 
-| Título       | 
+| CONTENIDO      | 
 | -------------| 
 | [Introducción ](#Introducción) | 
 | [Paso 1](#Paso-1)     |     
