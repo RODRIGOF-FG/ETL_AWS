@@ -56,8 +56,23 @@ Creamos 4 carpetas llamadas: "csv_input" (donde colocaremos el archivo CSV que v
 
 - Ingresamos al servicio "AWS Glue" y accedemos a la opción de "ETL visual" para crear un job.
 
+![img_11](file/img_11.png)
 
+- En esta sección, seleccionamos los recursos que utilizaremos. En "Data Source" seleccionamos 
+Amazon S3, luego en "Transform" optamos por "Change Schema", y finalmente, en "Target", 
+seleccionamos nuevamente Amazon S3
 
+![img_12](file/img_12.png)
+
+- En "Data Source" de Amazon S3, configuramos la ubicación de nuestro archivo CSV en "S3 
+URL", definimos el formato de datos como CSV y establecemos el delimitador como ";".
+
+![img_13](file/img_13.png)
+
+- "Change Schema",nos permite visualizar las columnas de nuestro archivo CSV y modificar nombres o tipos de variables si es 
+necesario, ademas de permitirnos eliminar columnas.
+
+![img_14](file/img_14.png)
 
 
 
