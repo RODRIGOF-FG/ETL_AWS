@@ -153,8 +153,25 @@ job.commit()
 
 ```
 
+- Luego, nos dirigimos a la sección de "Job Details" para configurar el job en AWS Glue, donde 
+realizamos las siguientes modificaciones:
+En "Name", asignamos un nombre a la tarea, como por ejemplo, "job_aws".
+En "IAM Role", asociamos el rol que creamos previamente, denominado "aws_rol".
+En "Requested Number of Workers", utilizamos 3 trabajadores, ya que nuestro archivo CSV es 
+pequeño y no es necesario aumentar el tiempo de transformación.
+En "Script Path", especificamos la ruta de la carpeta "script" ubicada en nuestro bucket.
+En "Temporary Path", indicamos la carpeta "temp" que creamos en nuestro bucket.
+Guardamos la configuración y ejecutamos el job.
 
+![img_17](file/img_17.png)
+![img_18](file/img_18.png)
+![img_19](file/img_19.png)
+![img_20](file/img_20.png)
 
+- Nos dirigimos a la sección de "Job Run Monitoring" para verificar que el archivo se esté 
+ejecutando correctamente.
+
+![img_21](file/img_21.png)
 
 
 
