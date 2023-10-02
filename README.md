@@ -2,12 +2,12 @@
 Tabla de contenido
 -----------------
 
-| Título       | Enlace          |
-| -------------| --------------- |
-| Introducción | [Enlace](#Introducción) |
-| Paso 1       | [Enlace](#Paso-1)       |
-| Paso 2       | [Enlace](#Paso-2)       |
-| Paso 3       | [Enlace](#Paso-3)       |
+| Título       | 
+| -------------| 
+| [Introducción ](#Introducción) | 
+| [Paso 1](#Paso-1)     |     
+| [Paso 2](#Paso-2)   |       
+| [Paso 3](#Paso-3)   |      
 
 
 ### Introduccion
