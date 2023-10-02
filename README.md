@@ -287,3 +287,42 @@ ejecutando correctamente.
 
 <br>
 
+- En esta sección, definimos un nombre para la tabla, por ejemplo, "data".
+Además, seleccionamos la opción de "Create Database" con el nombre "db_csv"
+
+<br>
+
+![img_23](file/img_23.png)
+
+<br>
+
+- En "Dataset", cargamos la carpeta donde se guardó la transformación del archivo CSV y en 
+"Data Format", cambiamos el formato de archivo a CSV.
+
+<br>
+
+![img_24](file/img_24.png)
+
+<br>
+
+- Finalmente, creamos las columnas correspondientes en la tabla, como por ejemplo, "id", 
+"cliente", "f_solicitud", "monto" y "cuota", y definimos sus tipos de datos como string.
+
+<br>
+
+![img_25](file/img_25.png)
+
+<br>
+
+- En esta sección, se nos mostrará cómo está estructurada la consulta SQL y podemos proceder 
+a crear la tabla.
+
+<br>
+
+![img_26](file/img_26.png)
+
+<br>
+
+
+
+
