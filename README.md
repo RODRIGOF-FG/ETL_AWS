@@ -236,7 +236,7 @@ job.commit()
 
 <br>
 
-- Luego, nos dirigimos a la sección de "Job Details" para configurar el job en AWS Glue, donde 
+Luego, nos dirigimos a la sección de "Job Details" para configurar el job en AWS Glue, donde 
 realizamos las siguientes modificaciones:
 - En "Name", asignamos un nombre a la tarea, como por ejemplo, "job_aws".
 - En "IAM Role", asociamos el rol que creamos previamente, denominado "aws_rol".
@@ -267,6 +267,22 @@ ejecutando correctamente.
 
 [Volver inicio :arrow_up:](#ETL_AWS)
 
+<br>
 
+### Paso 4
+-----------
 
+<br>
+
+**Amazon Athena**
+
+<br>
+
+- Nos dirigimos al servicio de Amazon Athena para insertar los datos transformados del CSV en una base de datos. Seleccionamos "Create" y "S3 Bucket Data".
+
+<br>
+
+![img_22](file/img_22.png)
+
+<br>
 
