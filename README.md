@@ -96,7 +96,7 @@ la ruta de salida de la transformación en la carpeta "csv_output".
 - En la sección de "Script", se genera el código en Python correspondiente al proceso que 
 estamos realizando.
 
-![img_16](file/img_16.png)
+![img_16](file/img_16_s.png)
 
 - **codigo python**
 
