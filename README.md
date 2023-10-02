@@ -13,7 +13,11 @@ Proceso ETL (Extract, Transform, Load), el cual implica la carga de un archivo C
 
 - Presionamos la opción de "Crear Rol" y luego seleccionamos "Servicio de AWS". Además, en el apartado de "Servicios de caso de uso", agregamos el servicio "Glue" y presionamos el botón siguiente.
 
-[![p.2](file/Picture2.png)](#p.2) [![p.3](file/Picture3.png)](#p.3)
+<div>
+  <a href="#p.2"><img src="file/Picture2.png" alt="p.2"></a>
+  <a href="#p.3"><img src="file/Picture3.png" alt="p.3"></a>
+</div>
+
 
 
 
