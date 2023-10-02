@@ -323,6 +323,42 @@ a crear la tabla.
 
 <br>
 
+```cmd
+CREATE EXTERNAL TABLE IF NOT EXISTS `db_csv`.`data` (
+ `id` string,
+ `cliente` string,
+ `f_slicitud` string,
+ `monto` string,
+ `cuota` string
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+WITH SERDEPROPERTIES ('field.delim' = ',')
+STORED AS INPUTFORMAT 'org.apache.hadoop.mapred.TextInputFormat' OUTPUTFORMAT 
+'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION 's3://bucket-aws-1/csv_output/'
+TBLPROPERTIES ('classification' = 'csv');
 
+```
 
+<br>
 
+- Una vez creada la base de datos y la tabla ejecutamos la consulta
+
+<br>
+
+```cmd
+Select * from “db_csv”.”data” limit 10;
+
+```
+
+<br>
+
+- Y se mostrarán los datos del CSV transformado en la base de datos
+
+<br>
+
+![img_27](file/img_27.png)
+
+<br>
+
+[Volver inicio :arrow_up:](#ETL_AWS)
