@@ -1,4 +1,4 @@
 # ETL_AWS
 **Figures and Tables**
 
-[![home](file/picture1.png)](#home) 
+[![home](file/Picture1.png)](#home) 
