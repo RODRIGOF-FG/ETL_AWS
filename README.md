@@ -1,5 +1,7 @@
 # ETL_AWS
+
 <br>
+
 | TABLA DE CONTENIDO     |
 | ------------ |
 | [Introducción](#Introducción) |
@@ -8,15 +10,21 @@
 | [Paso 3](#Paso-3) |
 
 <br>
+
 ### Introduccion
 Proceso ETL (Extract, Transform, Load), el cual implica la carga de un archivo CSV en un bucket de Amazon S3 , mediante el servicio Glue de AWS, se lleva a cabo la transformación para posteriormente cargarlo o consultar su contenido a través de una base de datos en Amazon Athena.
 
 <br>
+
 ### Paso 1
 -----------
+
 <br>
+
 **IAM – Roles**
+
 <br>
+
 - Para crear un rol, debemos dirigirnos al panel del servicio Identity and Access Management (IAM) e ingresar a la opción de "Roles".
 <br>
 ![img_1](file/img_1.png)
