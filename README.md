@@ -21,10 +21,10 @@ Proceso ETL (Extract, Transform, Load), el cual implica la carga de un archivo C
 
 - En el apartado de "Asignar nombre, revisar y crear", asignamos un nombre al rol que estamos creando, en este caso, "aws_rol", y hacemos clic en "Crear".
 
-
 ![img_5](file/img_5.png)
 
 - Para verificar si el rol creado se ha guardado correctamente, puedes dirigirte a la sección de "Roles".
+
 ![img_6](file/img_6.png)
 
 ### Paso 2
