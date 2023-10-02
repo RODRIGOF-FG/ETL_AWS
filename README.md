@@ -98,7 +98,7 @@ estamos realizando.
 
 ![img_16](file/img_16_s.png)
 
-- **codigo python**
+**codigo python**
 
 
 ```cmd
