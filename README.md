@@ -152,7 +152,8 @@ AmazonS3_node163956 = glueContext.write_dynamic_frame.from_options(
 job.commit()
 
 ```
-
+<br>
+<br>
 - Luego, nos dirigimos a la sección de "Job Details" para configurar el job en AWS Glue, donde 
 realizamos las siguientes modificaciones:
 En "Name", asignamos un nombre a la tarea, como por ejemplo, "job_aws".
@@ -172,6 +173,10 @@ Guardamos la configuración y ejecutamos el job.
 ejecutando correctamente.
 
 ![img_21](file/img_21.png)
+
+
+[Volver inicio :arrow_up:](#ETL_AWS)
+
 
 
 
