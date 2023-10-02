@@ -9,7 +9,7 @@ Proceso ETL (Extract, Transform, Load), el cual implica la carga de un archivo C
 
 - Para crear un rol, debemos dirigirnos al panel del servicio Identity and Access Management (IAM) e ingresar a la opción de "Roles".
 
-[![home](file/img_1.png)](#home) 
+[![img_1](file/img_1.png)](#img_1) 
 
 - Presionamos la opción de "Crear Rol" y luego seleccionamos "Servicio de AWS". Además, en el apartado de "Servicios de caso de uso", agregamos el servicio "Glue" y presionamos el botón siguiente.
   
