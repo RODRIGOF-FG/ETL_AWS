@@ -15,6 +15,11 @@ Proceso ETL (Extract, Transform, Load), el cual implica la carga de un archivo C
   
 ![img_2](file/img_2.png) ![img_3](file/img_3.png)
 
+- En el apartado de "Agregar permisos", otorgamos el permiso de "Amazon S3 Full Access" y continuamos.
+  
+![img_4](file/img_4.png)
+
+- En el apartado de "Asignar nombre, revisar y crear", asignamos un nombre al rol que estamos creando, en este caso, "aws_rol", y hacemos clic en "Crear".
 
 
-
+![img_5](file/img_5.png)
