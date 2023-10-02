@@ -32,6 +32,7 @@ Proceso ETL (Extract, Transform, Load), el cual implica la carga de un archivo C
 **Crear Bucket**
 
 - Para crear un bucket nos dirigimos al servicio de Amazon S3 de AWS y luego vamos a la opción de *"Buckets"*.
+
 ![img_7](file/img_7.png)
 
 - Presionamos en "Crear Bucket", y luego debemos asignar un nombre único al bucket, en este caso, "bucket-aws-1", y procedemos a crearlo.
