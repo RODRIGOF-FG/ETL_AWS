@@ -74,7 +74,10 @@ necesario, ademas de permitirnos eliminar columnas.
 
 ![img_14](file/img_14.png)
 
+- En el apartado de "Target" de Amazon S3, cambiamos el tipo de archivo a CSV y especificamos 
+la ruta de salida de la transformación en la carpeta "csv_output".
 
+![img_15](file/img_15.png)
 
 
 
