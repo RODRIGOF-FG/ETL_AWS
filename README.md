@@ -26,3 +26,40 @@ Proceso ETL (Extract, Transform, Load), el cual implica la carga de un archivo C
 
 - Para verificar si el rol creado se ha guardado correctamente, puedes dirigirte a la sección de "Roles".
 ![img_6](file/img_6.png)
+
+### Paso 2
+
+**Crear Bucket**
+
+- Para crear un bucket nos dirigimos al servicio de Amazon S3 de AWS y luego vamos a la opción de *"Buckets"*.
+![img_7](file/img_7.png)
+
+- Presionamos en "Crear Bucket", y luego debemos asignar un nombre único al bucket, en este caso, "bucket-aws-1", y procedemos a crearlo.
+
+![img_8](file/img_8.png)
+
+- Después, nos dirigimos al bucket creado para crear carpetas que se utilizarán en este ejemplo.
+Creamos 4 carpetas llamadas: "csv_input" (donde colocaremos el archivo CSV que vamos a transformar), "csv_output" (donde se guardará el archivo de salida después de la transformación en el servicio Glue), "script", y "temp".
+
+![img_9](file/img_9.png)
+
+- Carpeta de "csv_input", con el CSV que utilizaremos:
+  
+![img_10](file/img_10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
