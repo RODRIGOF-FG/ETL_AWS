@@ -50,6 +50,12 @@ Creamos 4 carpetas llamadas: "csv_input" (donde colocaremos el archivo CSV que v
 
 
 
+### Paso 3
+
+**AWS Glue**
+
+- Ingresamos al servicio "AWS Glue" y accedemos a la opción de "ETL visual" para crear un job.
+
 
 
 
