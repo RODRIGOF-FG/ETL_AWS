@@ -3,7 +3,7 @@ Tabla de contenido
 -----------------
 
 - [Introduccion](#Introduccion)
-- [Paso 1](#Paso 1)
+- [Paso 1](#Paso-1)
 -
 
 ### Introduccion
